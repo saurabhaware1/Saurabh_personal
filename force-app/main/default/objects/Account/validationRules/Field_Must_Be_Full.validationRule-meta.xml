@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Must_Be_Full</fullName>
+    <active>true</active>
+    <description>Select pick Value</description>
+    <errorConditionFormula>AND(ISBLANK(AccountNumber),NOT(ISNEW())   )</errorConditionFormula>
+    <errorDisplayField>AccountNumber</errorDisplayField>
+    <errorMessage>Enter Account Number</errorMessage>
+</ValidationRule>
