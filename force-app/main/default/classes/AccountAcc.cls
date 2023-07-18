@@ -3,7 +3,7 @@ public AccountAcc() {
 method2(); 
 }
 void method2(){
-system.debug('Hello From Private');
+system.debug('Hello From Private');  //.more changes
 system.debug('Hello From Private');
 system.debug('Hello From Private');
 system.debug('Hello From Private');
