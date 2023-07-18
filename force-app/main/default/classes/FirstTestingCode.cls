@@ -5,7 +5,7 @@ A.Name = 'saurabh Test';
 A.Rating = 'Hot';
 A.phone ='1234567890';
 insert A;
-
+ 
 }
 
 }
