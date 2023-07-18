@@ -5,5 +5,9 @@ method2();
     }
 void method2(){
 system.debug('Hello From Private');
+system.debug('Hello From Private');
+system.debug('Hello From Private');
+system.debug('Hello From Private');
+
 }
 }
