@@ -1,14 +1,14 @@
 public with sharing class TestingClass {
-    public TestingClass() {
+public TestingClass() {
 system.debug('3---Invoke from AccountAcc');
+}
+public static void newTest(){
+    Account A = new Account();
+    A.Name = 'saurabh Test';
+    A.Rating = 'Hot';
+    A.phone ='1234567890'; //changes from git
+    insert A;
+    //from dev org
+    
     }
-    public static void newTest(){
-        Account A = new Account();
-        A.Name = 'saurabh Test';
-        A.Rating = 'Hot';
-        A.phone ='1234567890'; //changes from git
-        insert A;
-        //from dev org
-        
-        }
 }
